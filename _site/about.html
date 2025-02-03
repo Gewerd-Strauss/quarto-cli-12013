@@ -530,7 +530,9 @@ Figure&nbsp;4
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a></a><span class="co"># Yield Format of slide 5:</span></span>
 <span id="cb2-2"><a></a><span class="ex">quarto</span> render about.qmd <span class="at">--execute-params</span> layout2.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>to be applied on selective slides of a larger presentation. To do so, I am attempting to wrap the various parts of the slide into parameter-conditionals as outlined in the <a href="https://quarto.org/docs/authoring/conditional.html#matching-against-metadata">docs</a></p>
+<p>to be applied on selective slides of a larger presentation.<br>
+Note that the text visible on the second column of slide 3 is now part of the speaker-notes of slide 5.</p>
+<p>To do so, I am attempting to wrap the various parts of the slide into parameter-conditionals as outlined in the <a href="https://quarto.org/docs/authoring/conditional.html#matching-against-metadata">docs</a></p>
 <p>Unfortunately, this does not seem to work - or I might not understand how to correctly nest spans.</p>
 
 <div class="quarto-auto-generated-content">
