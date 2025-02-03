@@ -1,5 +1,83 @@
 ---
-title: "About"
+title: "Changing presentation-layout via spans"
+format: 
+  revealjs: 
+    subtitle: "Default format: Figures to the left, bullets to the right"
 ---
 
-About this site
+# A presentation
+
+## Default slide
+
+**The default**
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r}
+#| label: fig-exampleA
+plot(cars)
+```
+
+```{r}
+#| label: fig-exampleB
+x <- seq(-pi, pi, 0.1)
+plot(x, sin(x))
+```
+
+::: 
+
+::: {.column width="50%"}
+
+- text describing @fig-exampleA
+    - look at all this data. Wow.
+- or maybe also @fig-exampleB
+    - note that the speaker-notes, accessible in speaker-view (press `s` on the webiste) are empty
+
+::: 
+
+:::: 
+
+## Slide 2
+
+- a normal side
+
+## Intended goal
+
+**The intended goal**
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r}
+#| label: fig-exampleA2
+plot(cars)
+```
+
+::: 
+
+::: {.column width="50%"}
+```{r}
+#| label: fig-exampleB2
+x <- seq(-pi, pi, 0.1)
+plot(x, sin(x))
+```
+
+::: 
+
+:::: 
+
+::: {.notes}
+
+- text describing @fig-exampleA2
+    - look at all this data. Wow.
+- or maybe also @fig-exampleB2
+    - note that the speaker-notes, accessible in speaker-view (press `s` on the webiste) are empty
+
+::: 
+
+## Slide 4
+
+- another normal side
