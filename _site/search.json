@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html#default-slide",
+    "href": "about.html#default-slide",
+    "title": "Changing presentation-layout via spans",
+    "section": "Default slide",
+    "text": "Default slide\nThe default\n\n\n\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2\n\n\n\n\n\n\n\ntext describing Figure 1\n\nlook at all this data. Wow.\n\nor maybe also Figure 2\n\nnote that the speaker-notes, accessible in speaker-view (press s on the webiste) are empty"
+  },
+  {
+    "objectID": "about.html#slide-2",
+    "href": "about.html#slide-2",
+    "title": "Changing presentation-layout via spans",
+    "section": "Slide 2",
+    "text": "Slide 2\n\na normal side"
+  },
+  {
+    "objectID": "about.html#intended-goal",
+    "href": "about.html#intended-goal",
+    "title": "Changing presentation-layout via spans",
+    "section": "Intended goal",
+    "text": "Intended goal\nThe intended goal\n\n\n\n\n\n\n\n\n\n\nFigure 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 4\n\n\n\n\n\n\n\n\ntext describing Figure 3\n\nlook at all this data. Wow.\n\nor maybe also Figure 4\n\nnote that the speaker-notes, accessible in speaker-view (press s on the webiste) are empty"
+  },
+  {
+    "objectID": "about.html#slide-4",
+    "href": "about.html#slide-4",
+    "title": "Changing presentation-layout via spans",
+    "section": "Slide 4",
+    "text": "Slide 4\n\nanother normal side"
+  }
+]
