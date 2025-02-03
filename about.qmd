@@ -3,6 +3,8 @@ title: "Changing presentation-layout via spans"
 format: 
   revealjs: 
     subtitle: "Default format: Figures to the left, bullets to the right"
+params:
+  hide_notes: FALSE
 ---
 
 # A presentation
@@ -80,4 +82,27 @@ plot(x, sin(x))
 
 ## Slide 4
 
-- another normal side
+The intention is to use the dynamically change the output format between the one displayed on slide 3:
+
+
+
+```{bash}
+#| echo: true
+#| eval: false
+# Yield Format of slide 3:
+quarto render about.qmd
+```
+
+and the one on slide 5 by executing:
+
+```{bash}
+#| echo: true
+#| eval: false
+# Yield Format of slide 5:
+quarto render about.qmd --execute-params layout2.yml
+```
+
+to be applied on selective slides of a larger presentation.
+To do so, I am attempting to wrap the various parts of the slide into parameter-conditionals as outlined in the [docs](https://quarto.org/docs/authoring/conditional.html#matching-against-metadata)
+
+Unfortunately, this does not seem to work - or I might not understand how to correctly nest spans.
