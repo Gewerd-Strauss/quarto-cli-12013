@@ -10,10 +10,6 @@ website:
       - about.qmd
 
 format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
+  revealjs: 
+    author: Gewerd Strauss
+    slide-number: c/t
