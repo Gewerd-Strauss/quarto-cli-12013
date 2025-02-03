@@ -25,6 +25,6 @@
     "href": "about.html#slide-4",
     "title": "Changing presentation-layout via spans",
     "section": "Slide 4",
-    "text": "Slide 4\nThe intention is to use the dynamically change the output format between the one displayed on slide 3:\n\n# Yield Format of slide 3:\nquarto render about.qmd\n\nand the one on slide 5 by executing\n\n# Yield Format of slide 5:\nquarto render about.qmd --execute-params layout2.yml\n\nTo do so, I am attempting to wrap the various parts of the slide into parameter-conditionals as outlined in the docs"
+    "text": "Slide 4\nThe intention is to use the dynamically change the output format between the one displayed on slide 3:\n\n# Yield Format of slide 3:\nquarto render about.qmd\n\nand the one on slide 5 by executing:\n\n# Yield Format of slide 5:\nquarto render about.qmd --execute-params layout2.yml\n\nto be applied on selective slides of a larger presentation. To do so, I am attempting to wrap the various parts of the slide into parameter-conditionals as outlined in the docs\nUnfortunately, this does not seem to work - or I might not understand how to correctly nest spans."
   }
 ]

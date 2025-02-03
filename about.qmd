@@ -2,7 +2,7 @@
 title: "Changing presentation-layout via spans"
 format: 
   revealjs: 
-    subtitle: "Default format: Figures to the left, bullets to the right"
+    subtitle: "reprex for <https://github.com/quarto-dev/quarto-cli/discussions/12013>"
 params:
   hide_notes: FALSE
 ---
